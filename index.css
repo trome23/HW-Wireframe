@@ -4,6 +4,7 @@ body {
     background-color: #777;
     width: 960px;
     font-size: 18px;
+    margin-left: 200px;
 }
 
 Header {
@@ -19,13 +20,22 @@ nav {
     padding: 30px;
 }
 
-section {
-    background: #ebebeb;
-    margin-top: 0px;
+.left-section {
+    float: left;
     text-align: center;
+    Height: 300px;
     width: 495px;
     padding: 20px;
+    
 }
+
+.right-section {
+    float: right;
+    text-align: center;
+    Height: 300px;
+    width: 365px;
+    padding: 20px;
+ }
 
 Article {
     color: #ebebeb;
@@ -38,10 +48,13 @@ H1, P {
     background: #ebebeb;
 }
 
-Aside {
-    background: #ebebeb;
-}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 Footer {
     background: #ebebeb;
+    padding: 30px;
 }
