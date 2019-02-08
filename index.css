@@ -9,5 +9,39 @@ body {
 Header {
     Background: #ebebeb;
     text-align: center;
+    padding: 30px;
+    margin-bottom: -15px;
 }
-    
+
+nav {
+    background: #ebebeb;
+    text-align: center;
+    padding: 30px;
+}
+
+section {
+    background: #ebebeb;
+    margin-top: 0px;
+    text-align: center;
+    width: 495px;
+    padding: 20px;
+}
+
+Article {
+    color: #ebebeb;
+    background: #777;
+    color: '#ebebeb';
+}
+
+H1, P {
+    color: #777;
+    background: #ebebeb;
+}
+
+Aside {
+    background: #ebebeb;
+}
+
+Footer {
+    background: #ebebeb;
+}
